@@ -34,14 +34,11 @@
 
     watch: {
       searchTerm: function(searchTerm) {
-        const baseUrl = "http://localhost:8090";
+        const baseUrl = "http://anyoldtimebackend.herokuapp.com";
 
         axios.get(baseUrl + '/records?q=' + searchTerm)
           .then(response => {
-            console.log(response)
-            console.log(this.records)
             this.records = response.data
-            console.log(this.records)
           })
           .catch(error => {
             console.log(error)

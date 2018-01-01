@@ -1,7 +1,6 @@
 {
-  "name": "recordstores-frontend",
+  "name": "anyoldtime-frontend",
   "version": "1.0.0",
-  "description": "A Vue.js project",
   "author": "Wyko Rijnsburger <utwyko@gmail.com>",
   "private": true,
   "scripts": {
@@ -14,7 +13,8 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
-    "bootstrap-vue": "^1.0.0-beta.7",
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^1.4.0",
     "style-loader": "^0.18.2",
     "vue": "^2.4.2",
     "vue-router": "^2.7.0"

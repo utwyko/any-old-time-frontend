@@ -1,27 +1,7 @@
-# recordstores-frontend
+# Record Stores Frontend
 
-> A Vue.js project
+A simple for searching record store collections, currently for the Any Old Time record store in Amsterdam.
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Consists of:
+- [A Spring Boot application providing an interface to query the record index](https://github.com/utwyko/recordstoresbackend)
+- [A Vue.js frontend](https://github.com/utwyko/recordstores-frontend)
